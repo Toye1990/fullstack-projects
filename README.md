@@ -1,1 +1,1 @@
-# fullstack-projects
+This project is a little practise of front end dev. I am trying to achieve how to recreate a UI/UX design using HTML/CSS
