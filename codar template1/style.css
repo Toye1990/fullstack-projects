@@ -71,6 +71,8 @@ main{
 }
 
 
+
+
 @media (max-width: 480px){
     .container{
         width: 170px;
@@ -91,7 +93,13 @@ main{
         font-size: 13px;
         font-weight: bolder;
     }
+
+    section{
+        margin-bottom: 10px;
+    }
 }
+
+
 
 
 
