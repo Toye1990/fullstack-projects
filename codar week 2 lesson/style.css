@@ -7,8 +7,8 @@
 
 body{
     background-color: hsl(226, 43%, 10%);
-    margin-top: 250px;
-    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-bottom: 10px;
 }
 
 main{
@@ -178,7 +178,7 @@ ul li{
     background-color: hsl(43, 84%, 65%);
 }
 
-@media (max-width: 575px){
+@media (max-width: 375px){
     main{
         width: 70%;
         height: 65%;
@@ -193,6 +193,7 @@ ul li{
     body{
         background-color: hsl(226, 43%, 10%);
         margin-top: 50px;
+        background: tomato;
       
     }
 
@@ -218,6 +219,185 @@ ul li{
         width: 80px;
         height: 70px;
         border: 2px solid #fff;
+        border-radius: 50%;
+    }
+    
+    .profile-text{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        padding-top: 10px;
+        justify-content: center;
+        
+    }
+    
+    .profile-text h6{
+        font-size: 13px;
+        font-weight: 300;
+    }
+    
+    .profile-text h2{
+        padding-top: 5px;
+        font-size: 23px;
+        font-weight: 300;
+        letter-spacing: 2px;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-left: 40px;
+    }
+
+    .container2{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 100px, auto;
+        width: 40%;
+        height: 90vh;
+        row-gap: 80px;
+        column-gap: 30px;
+        position: relative;
+        padding-top: 40px;
+        justify-content: space-around;
+    }
+
+    .out-container{
+        background-color: hsl(15, 100%, 70%);
+        height: 20vh;
+        width: 30vh;
+        border-radius: 20px; 
+      
+    }
+    
+    .inner-container{
+        height: 20vh;
+        width: 20vh;
+        background-color: hsl(235, 46%, 20%);
+        margin-top: 40px;
+        border-radius: 20px;
+        position: relative;
+        z-index: 1;
+        padding: 20px 15px;
+        background-color: red;
+    }
+    
+    .out-container img{
+        width: 60px;
+        float: right; 
+    }
+    
+    .inner-text1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 10px;
+    }
+    
+    .inner-text1 h5{
+        font-size: 15px;
+        color: #fff;
+        font-weight: lighter;
+      }
+    
+      
+    .inner-text1 h6{
+        font-size: 15px;
+        color: #fff;
+        font-weight: lighter;
+      }
+    
+    .inner-text2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 30px;
+    }
+    
+    .inner-text2 h1{
+      font-size: 45px;
+      color: #fff;
+      font-weight: lighter;
+    }
+    
+    .inner-text2 h6{
+        font-size: 13px;
+        color: #d4d3d3;
+        font-weight: lighter;
+      }
+    
+      .work{
+        background-color: hsl(15, 100%, 70%);
+      }
+    
+      .play{
+        background-color: hsl(195, 74%, 62%);
+      }
+    
+      .study{
+        background-color: hsl(348, 100%, 68%);
+         }
+    
+     .execise{
+     background-color: hsl(145, 58%, 55%)
+    }
+    
+    .social{
+        background-color: hsl(264, 64%, 52%);
+    }
+    
+    
+    .selfcare{
+        background-color: hsl(43, 84%, 65%);
+    }
+    
+
+
+}
+
+
+
+@media (max-width: 575px){
+    main{
+        width: 70%;
+        height: 65%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 130px !important;
+    }
+
+    body{
+        background-color: hsl(226, 43%, 10%);
+        margin-top: 50px;
+    }
+
+    .container1{
+        width: 130%;
+        height: 70%;
+        background-color:hsl(235, 46%, 20%);
+        border-radius: 30px;   
+    }
+    
+    .profile{
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        flex-direction: row;
+        background-color: hsl(246, 80%, 60%);
+        padding: 5px 30px 0 30px;
+        border-radius: 30px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .container1 img{
+        width: 80px;
+        height: 70px;
+        border: 2px solid #7c3030;
         border-radius: 50%;
     }
     
@@ -357,7 +537,9 @@ ul li{
 
 
 
+
 @media (max-width: 769px){
+
     main{
         width: 70%;
         height: 65%;
@@ -371,7 +553,7 @@ ul li{
 
     body{
         background-color: hsl(226, 43%, 10%);
-        margin: auto;
+        margin: 80px 20px;
     }
 
     .container1{
@@ -438,6 +620,7 @@ ul li{
         position: relative;
         padding-top: 40px;
         justify-content: space-around;
+        margin-bottom: 140px;
     }
 
     .out-container{
@@ -493,7 +676,7 @@ ul li{
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        padding-top: 60px;
+        padding-top: 20px;
     }
     
     .inner-text2 h1{
@@ -536,6 +719,7 @@ ul li{
     .enx{
         margin-bottom: 50px;
     }
+
 
 }
 
