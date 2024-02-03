@@ -1,0 +1,284 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'League Spartan', sans-serif;
+}
+
+
+
+body{
+    padding-top: 80px;
+}
+
+
+main{
+    width: 80%;
+    height: 70vh;
+    margin: 0 auto;
+}
+
+#updesign{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.text-content{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.rating-content{
+    width: 50%;
+    height: 100%;
+}
+
+.text-content h1{
+    font-size: 45px;
+    width: 54%;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+
+.text-content p{
+    font-size: 15px;
+    padding: 20px 0px;
+    width: 400px;
+    font-weight: 400;
+    color: hsl(303, 10%, 53%);
+}
+
+.rating-content .col1{
+    background-color: hsl(300, 24%, 96%);
+    padding: 10px 8px;
+    width: 67%;
+}
+
+.single-rating{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.rating-content .col2{
+    background-color: hsl(300, 24%, 96%);
+    padding: 10px 8px;
+    width: 67%;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.rating-content .col3{
+    background-color: hsl(300, 24%, 96%);
+    padding: 10px 8px;
+    width: 67%;
+    margin-top: 15px;
+    margin-left: 70px;
+}
+
+
+
+#downdesign{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.testimonial{
+    background-color: hsl(300, 43%, 22%);
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+
+.img-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img-box img{
+  width: 40px;
+  border-radius: 50%;
+}
+
+.img-box .img-title{
+    padding-left: 20px;
+}
+
+
+.testimonial p{
+    color: hsl(0, 0%, 100%);
+    padding-top: 20px;
+    line-height: 25px;
+}
+
+.img-box h4{
+   color: #FFF;
+}
+
+.img-box h5{
+  color: hsl(333, 80%, 67%);
+
+}
+
+.discourse2{
+    margin-top: 40px;
+}
+
+
+.discourse3{
+    margin-top: 70px;
+}
+
+
+@media (max-width: 379px){
+    
+main{
+    width: 75%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+#updesign{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.text-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.rating-content{
+    width: 100%;
+    height: 100%;
+}
+
+.text-content h1{
+    font-size: 30px;
+    width: 90%;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    text-align: center;
+    margin-left: 20px;
+}
+
+.text-content p{
+    font-size: 15px;
+    padding: 20px 0px;
+    width: 250px;
+    font-weight: 400;
+    color: hsl(303, 10%, 53%);
+    text-align: center;
+}
+
+
+.rating-content .col1{
+    background-color: hsl(300, 24%, 96%);
+    padding: 10px 8px;
+    width: 100%;
+}
+
+.single-rating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rating-content .col2{
+    background-color: hsl(300, 24%, 96%);
+    padding: 10px 25px;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 0px;
+}
+
+.rating-content .col3{
+    background-color: hsl(300, 24%, 96%);
+    padding: 10px 8px;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 0px;
+}
+
+
+
+#downdesign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.testimonial{
+    background-color: hsl(300, 43%, 22%);
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    width: 100%;
+}
+
+
+.img-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img-box img{
+  width: 40px;
+  border-radius: 50%;
+}
+
+.img-box .img-title{
+    padding-left: 20px;
+}
+
+
+.testimonial p{
+    color: hsl(0, 0%, 100%);
+    padding-top: 20px;
+    line-height: 25px;
+}
+
+.img-box h4{
+   color: #FFF;
+}
+
+.img-box h5{
+  color: hsl(333, 80%, 67%);
+
+}
+
+.discourse2{
+    margin-top: 20px;
+}
+
+
+.discourse3{
+    margin-top: 20px;
+}
+
+}
+
+
+
+
